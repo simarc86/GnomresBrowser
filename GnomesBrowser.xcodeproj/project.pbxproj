@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		161940F2F7E857FE6E5882D6 /* Pods_GnomesBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4652A99BCB20BD0EDB2C2A /* Pods_GnomesBrowserUITests.framework */; };
 		40382CAC3CB0A48903DF3CD6 /* Pods_GnomesBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E211D945F67BDF3410582 /* Pods_GnomesBrowserTests.framework */; };
+		D0531C09215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */; };
 		D05A257F2157FDF9009A673B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A257E2157FDF9009A673B /* Filter.swift */; };
 		D05A3EB921553DF1003305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A3EB821553DF1003305B6 /* AppDelegate.swift */; };
 		D05A3EBB21553DF1003305B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A3EBA21553DF1003305B6 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		A0B281D3B328AE0097F76998 /* Pods_GnomesBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GnomesBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A494AB68ABBD6A7813C67B42 /* Pods-GnomesBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomesBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnomesBrowserTests/Pods-GnomesBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
 		A57CF52F160899AFE0B56BFD /* Pods-GnomesBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomesBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnomesBrowserUITests/Pods-GnomesBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeFoldingTableViewCell.swift; sourceTree = "<group>"; };
 		D05A257E2157FDF9009A673B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		D05A3EB521553DF1003305B6 /* GnomesBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GnomesBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A3EB821553DF1003305B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				D06164F92155673B00576F8B /* ImageCached.swift */,
 				D0C108862159558F0014E259 /* KeyboarHandler.swift */,
 				D0C10888215975DD0014E259 /* SearchKeys.swift */,
+				D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */,
 				D05A3EBC21553DF1003305B6 /* Main.storyboard */,
 				D05A3EC221553DF9003305B6 /* Assets.xcassets */,
 				D05A3EC421553DF9003305B6 /* LaunchScreen.storyboard */,
@@ -408,6 +411,7 @@
 				D05A3EC121553DF1003305B6 /* GnomesBrowser.xcdatamodeld in Sources */,
 				D06164FA2155673B00576F8B /* ImageCached.swift in Sources */,
 				D0C108872159558F0014E259 /* KeyboarHandler.swift in Sources */,
+				D0531C09215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift in Sources */,
 				D0C10889215975DD0014E259 /* SearchKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,8 @@ class Filter: NSObject {
     func getBy(key: String, searchText: String) -> [Gnome]{
         switch key {
         case SearchKeys.kName:
-            return gnomes.filter{ $0.name.contains(searchText.lowercased()) }
+            let filtered = gnomes.filter{ $0.name.lowercased().contains(searchText.lowercased()) }
+            return filtered
         case SearchKeys.kAge:
             return gnomes.filter{ $0.age == Int(searchText)}
         case SearchKeys.kHeight:
