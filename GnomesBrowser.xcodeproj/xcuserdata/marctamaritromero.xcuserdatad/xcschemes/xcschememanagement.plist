@@ -7,7 +7,25 @@
 		<key>GnomesBrowser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D05A3EB421553DF1003305B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D05A3ECB21553DF9003305B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D05A3ED621553DF9003305B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
