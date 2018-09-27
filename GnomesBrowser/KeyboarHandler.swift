@@ -12,11 +12,13 @@ import Foundation
 class KeyboardHandler {
     static func requiresDecimal(key: String) -> Bool{
         switch key {
-        case "age":
+        case SearchKeys.kId:
             return true
-        case "weight":
+        case SearchKeys.kAge:
             return true
-        case "height":
+        case SearchKeys.kWeight:
+            return true
+        case SearchKeys.kHeight:
             return true
         default:
             return false

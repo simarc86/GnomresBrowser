@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     enum Const {
         static let closeCellHeight: CGFloat = 179
-        static let openCellHeight: CGFloat = 488
+        static let openCellHeight: CGFloat = 400
     }
     
     var cellHeights: [CGFloat] = []
@@ -99,8 +99,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
                 
         let gnome = filteredGnomes[indexPath.row]
         cell.nameGnome = gnome.name
-        cell.profileImageView.loadImageWithUrl(gnome.thumbnail)
+        cell.weight = gnome.weight
+        cell.height = gnome.height
+        cell.age = gnome.age
+        cell.hairColor = gnome.hair_color
+        cell.profileFGImgeView.loadImageWithUrl(gnome.thumbnail)
+        cell.profileContainerImageView.loadImageWithUrl(gnome.thumbnail)
         cell.number = gnome.id
+        cell.friends = gnome.friends
+        cell.professions = gnome.professions
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

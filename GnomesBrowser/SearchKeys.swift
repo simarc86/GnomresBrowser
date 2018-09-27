@@ -10,7 +10,8 @@ import Foundation
 
 
 class SearchKeys {
-    static let kName =         "name"
+    static let kId =         "id"
+    static let kName =         "Name"
     static let kAge =          "age"
     static let kWeight =       "weight"
     static let kHeight =       "height"
