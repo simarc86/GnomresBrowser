@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.searchBar(_:textDidChange:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filteredGnomes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:heightForRowAt:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidAppear(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchPickerView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.pickerView(_:numberOfRowsInComponent:):ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

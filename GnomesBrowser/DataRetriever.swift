@@ -21,6 +21,7 @@ class DataRetriever: NSObject {
         URLSession.shared.dataTask(with:url, completionHandler: {(data, response, error) in
             guard let data = data, error == nil else { return }
             do {
+                //Fill automatically the brastlewark object with json
                 let brastlewark = try JSONDecoder().decode(Towns.self, from: data)
                 self.delegate?.dataRetrievedSuccess(gnomes:brastlewark.Brastlewark)
             } catch let error as NSError {

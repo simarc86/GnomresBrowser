@@ -1,0 +1,6 @@
+framework module Pods_GnomesBrowserTests {
+  umbrella header "Pods-GnomesBrowserTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

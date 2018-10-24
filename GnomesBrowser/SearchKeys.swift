@@ -10,12 +10,12 @@ import Foundation
 
 
 class SearchKeys {
-    static let kId =         "id"
+    static let kId =           "Id"
     static let kName =         "Name"
-    static let kAge =          "age"
-    static let kWeight =       "weight"
-    static let kHeight =       "height"
-    static let kHairColor =    "hair_color"
-    static let kProfessions =  "professions"
-    static let kFriends =      "friends"
+    static let kAge =          "Age"
+    static let kWeight =       "Weight"
+    static let kHeight =       "Height"
+    static let kHairColor =    "Hair color"
+    static let kProfessions =  "Professions"
+    static let kFriends =      "Friends"
 }

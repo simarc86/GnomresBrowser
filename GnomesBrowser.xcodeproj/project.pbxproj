@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		161940F2F7E857FE6E5882D6 /* Pods_GnomesBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4652A99BCB20BD0EDB2C2A /* Pods_GnomesBrowserUITests.framework */; };
 		40382CAC3CB0A48903DF3CD6 /* Pods_GnomesBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7E211D945F67BDF3410582 /* Pods_GnomesBrowserTests.framework */; };
+		D0453EA0215D450700432CF2 /* Professions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0453E9F215D450700432CF2 /* Professions.swift */; };
 		D0531C09215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */; };
 		D05A257F2157FDF9009A673B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A257E2157FDF9009A673B /* Filter.swift */; };
 		D05A3EB921553DF1003305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A3EB821553DF1003305B6 /* AppDelegate.swift */; };
@@ -21,8 +22,8 @@
 		D05A3EDC21553DF9003305B6 /* GnomesBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A3EDB21553DF9003305B6 /* GnomesBrowserUITests.swift */; };
 		D05A3EEA21554250003305B6 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A3EE921554250003305B6 /* Gnome.swift */; };
 		D06164F621554F3C00576F8B /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06164F521554F3C00576F8B /* DataRetriever.swift */; };
-		D06164F8215560C100576F8B /* GnomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06164F7215560C100576F8B /* GnomeTableViewCell.swift */; };
 		D06164FA2155673B00576F8B /* ImageCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06164F92155673B00576F8B /* ImageCached.swift */; };
+		D06D4B18215E8988001E5FC0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D4B17215E8988001E5FC0 /* Reachability.swift */; };
 		D0C108872159558F0014E259 /* KeyboarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C108862159558F0014E259 /* KeyboarHandler.swift */; };
 		D0C10889215975DD0014E259 /* SearchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C10888215975DD0014E259 /* SearchKeys.swift */; };
 		D0FEB906215C0634000A4FF8 /* ProfessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEB905215C0634000A4FF8 /* ProfessionsTableViewController.swift */; };
@@ -53,6 +54,7 @@
 		A0B281D3B328AE0097F76998 /* Pods_GnomesBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GnomesBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A494AB68ABBD6A7813C67B42 /* Pods-GnomesBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomesBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnomesBrowserTests/Pods-GnomesBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
 		A57CF52F160899AFE0B56BFD /* Pods-GnomesBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomesBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnomesBrowserUITests/Pods-GnomesBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0453E9F215D450700432CF2 /* Professions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professions.swift; sourceTree = "<group>"; };
 		D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeFoldingTableViewCell.swift; sourceTree = "<group>"; };
 		D05A257E2157FDF9009A673B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		D05A3EB521553DF1003305B6 /* GnomesBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GnomesBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +73,8 @@
 		D05A3EDD21553DF9003305B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D05A3EE921554250003305B6 /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
 		D06164F521554F3C00576F8B /* DataRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
-		D06164F7215560C100576F8B /* GnomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeTableViewCell.swift; sourceTree = "<group>"; };
 		D06164F92155673B00576F8B /* ImageCached.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCached.swift; sourceTree = "<group>"; };
+		D06D4B17215E8988001E5FC0 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		D0C108862159558F0014E259 /* KeyboarHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboarHandler.swift; sourceTree = "<group>"; };
 		D0C10888215975DD0014E259 /* SearchKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchKeys.swift; sourceTree = "<group>"; };
 		D0FEB905215C0634000A4FF8 /* ProfessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsTableViewController.swift; sourceTree = "<group>"; };
@@ -158,21 +160,22 @@
 			isa = PBXGroup;
 			children = (
 				D05A3EB821553DF1003305B6 /* AppDelegate.swift */,
-				D05A3EBA21553DF1003305B6 /* ViewController.swift */,
-				D06164F7215560C100576F8B /* GnomeTableViewCell.swift */,
-				D06164F521554F3C00576F8B /* DataRetriever.swift */,
-				D06164F92155673B00576F8B /* ImageCached.swift */,
-				D0C108862159558F0014E259 /* KeyboarHandler.swift */,
-				D0C10888215975DD0014E259 /* SearchKeys.swift */,
-				D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */,
-				D0FEB905215C0634000A4FF8 /* ProfessionsTableViewController.swift */,
-				D05A3EBC21553DF1003305B6 /* Main.storyboard */,
 				D05A3EC221553DF9003305B6 /* Assets.xcassets */,
-				D05A3EC421553DF9003305B6 /* LaunchScreen.storyboard */,
-				D05A3EC721553DF9003305B6 /* Info.plist */,
-				D05A3EBF21553DF1003305B6 /* GnomesBrowser.xcdatamodeld */,
-				D05A3EE921554250003305B6 /* Gnome.swift */,
+				D06164F521554F3C00576F8B /* DataRetriever.swift */,
 				D05A257E2157FDF9009A673B /* Filter.swift */,
+				D05A3EE921554250003305B6 /* Gnome.swift */,
+				D0531C08215A9B4E00148A3D /* GnomeFoldingTableViewCell.swift */,
+				D05A3EBF21553DF1003305B6 /* GnomesBrowser.xcdatamodeld */,
+				D06164F92155673B00576F8B /* ImageCached.swift */,
+				D05A3EC721553DF9003305B6 /* Info.plist */,
+				D0C108862159558F0014E259 /* KeyboarHandler.swift */,
+				D05A3EC421553DF9003305B6 /* LaunchScreen.storyboard */,
+				D05A3EBC21553DF1003305B6 /* Main.storyboard */,
+				D0453E9F215D450700432CF2 /* Professions.swift */,
+				D0FEB905215C0634000A4FF8 /* ProfessionsTableViewController.swift */,
+				D06D4B17215E8988001E5FC0 /* Reachability.swift */,
+				D0C10888215975DD0014E259 /* SearchKeys.swift */,
+				D05A3EBA21553DF1003305B6 /* ViewController.swift */,
 			);
 			path = GnomesBrowser;
 			sourceTree = "<group>";
@@ -410,8 +413,9 @@
 				D05A3EBB21553DF1003305B6 /* ViewController.swift in Sources */,
 				D06164F621554F3C00576F8B /* DataRetriever.swift in Sources */,
 				D05A3EB921553DF1003305B6 /* AppDelegate.swift in Sources */,
-				D06164F8215560C100576F8B /* GnomeTableViewCell.swift in Sources */,
+				D0453EA0215D450700432CF2 /* Professions.swift in Sources */,
 				D05A257F2157FDF9009A673B /* Filter.swift in Sources */,
+				D06D4B18215E8988001E5FC0 /* Reachability.swift in Sources */,
 				D05A3EC121553DF1003305B6 /* GnomesBrowser.xcdatamodeld in Sources */,
 				D06164FA2155673B00576F8B /* ImageCached.swift in Sources */,
 				D0C108872159558F0014E259 /* KeyboarHandler.swift in Sources */,

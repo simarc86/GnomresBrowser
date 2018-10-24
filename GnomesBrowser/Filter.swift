@@ -10,7 +10,8 @@ import UIKit
 
 class Filter: NSObject {
     var gnomes: [Gnome]!
-    
+
+    //Return gnomes filtered by key
     func getBy(key: String, searchText: String) -> [Gnome]{
         switch key {
         case SearchKeys.kId:
@@ -24,9 +25,26 @@ class Filter: NSObject {
         case SearchKeys.kWeight:
             return gnomes.filter{ Int($0.weight) == Int(searchText)}
         case SearchKeys.kHairColor:
-            return gnomes.filter{ $0.hair_color == searchText.lowercased()}
+            return gnomes.filter{$0.hair_color.lowercased().contains(searchText.lowercased())}
+        case SearchKeys.kFriends:
+            return getFriendsWith(nameOfFriend: searchText)
+        case SearchKeys.kProfessions:
+            return gnomes.filter { $0.professions.contains(searchText) }
         default:
             return gnomes
         }
+    }
+    
+    //Return gnome's friends who contains search typed
+    func getFriendsWith(nameOfFriend: String) -> [Gnome]{
+        var gnomesWithFriend = [Gnome]()
+        for gnome in gnomes{
+            for friend in gnome.friends{
+                if friend.contains(nameOfFriend){
+                    gnomesWithFriend.append(gnome)
+                }
+            }
+        }
+        return gnomesWithFriend
     }
 }
